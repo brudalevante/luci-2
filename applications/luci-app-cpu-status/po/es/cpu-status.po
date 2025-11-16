@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+
+msgid "(%d minute window, %d second interval)"
+msgstr "(Ventana de %d minutos, intervalo de %d segundos)"
+
+msgid "All CPUs"
+msgstr "Todos los CPU"
+
+msgid "Average:"
+msgstr "Promedio:"
+
+msgid "Calculating"
+msgstr "Calculando"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "CPU Load"
+msgstr "Carga de CPU"
+
+msgid "CPU load"
+msgstr "Carga de CPU"
+
+msgid "Detailed load"
+msgstr "Carga detallada"
+
+msgid "Detailed load of each CPU"
+msgstr "Carga detallada de cada CPU"
+
+msgid "Load"
+msgstr "Carga"
+
+msgid "Load of each CPU"
+msgstr "Carga de cada CPU"
+
+msgid "Peak:"
+msgstr "Pico:"
+
+msgid "This page displays the average CPU load at %d second interval."
+msgstr "Esta página muestra la carga promedio de la CPU en un intervalo de %d segundos."
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Total load"
+msgstr "Carga total"
