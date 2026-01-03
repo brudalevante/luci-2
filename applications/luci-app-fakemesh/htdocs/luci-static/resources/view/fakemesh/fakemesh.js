@@ -48,7 +48,7 @@ return view.extend({
 		o.value('wap', _('Wired AP (ethernet as backhaul)'));
 		o.value('agent', _('Agent (wifi as backhaul)'));
 		o.value('controller', _('Controller (AC)'));
-		o.default = 'agent';
+		o.default = 'controller';
 
 		o = s.option(form.Value, 'access_ip', _('Access IP address'), _('The simple ip address to access the controller.'));
 		o.depends('role', 'controller');
@@ -65,7 +65,7 @@ return view.extend({
 		o.value('none', _('None'));
 		o.value('usteer', _('usteer'));
 		o.value('dawn', _('DAWN'));
-		o.default = 'none';
+		o.default = 'usteer';
 
 		o = s.option(form.Flag, 'fronthaul_disabled', _('Fronthaul Disabled'), _('Disable fronthaul Wi-Fi signal on this node.'));
 		o.enabled = '1';
