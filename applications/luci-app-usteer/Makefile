@@ -1,6 +1,6 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=luci-app-usteer2
+PKG_NAME:=luci-app-usteer
 PKG_VERSION:=1.0.0
 PKG_RELEASE:=1
 
