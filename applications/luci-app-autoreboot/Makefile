@@ -20,8 +20,8 @@ PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 include $(INCLUDE_DIR)/package.mk
 
 define Package/luci-app-autoreboot
-	CATEGORY:=X
-	SUBMENU:=Auto reboot bot app.
+	CATEGORY:=LuCI
+	SUBMENU:=Applications
 	TITLE:=LuCI Support for autoreboot
 	PKGARCH:=all
 	DEPENDS:=+busybox +@BUSYBOX_CONFIG_CROND
