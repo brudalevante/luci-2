@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2019 Chen Minqiang <ptpt52@gmail.com>
+# Copyright (C) 2017-2019 Chen Minqiang
 #
 # This is free software, licensed under the GNU General Public License v3.
 # See /LICENSE for more information.
@@ -20,8 +20,8 @@ PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 include $(INCLUDE_DIR)/package.mk
 
 define Package/luci-app-fakemesh
-	CATEGORY:=X
-	SUBMENU:=Configuration Fake Mesh Support
+	CATEGORY:=LuCI
+	SUBMENU:=Applications
 	TITLE:=LuCI Support for fakemesh
 	PKGARCH:=all
 	DEPENDS:=+jsonfilter +umdns +firewall4
