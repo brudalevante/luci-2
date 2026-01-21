@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: es\n"
+
+msgid "Active-State Power Management (ASPM) policy for PCIe links, which saves power by putting unused PCIe links into a low-power state."
+msgstr "Política de gestión de energía en estado activo (ASPM) para enlaces PCIe, que ahorra energía al poner los enlaces PCIe no utilizados en un estado de bajo consumo."
+
+msgid "An error has occurred"
+msgstr "Ha ocurrido un error"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "CPU Frequency"
+msgstr "Frecuencia de CPU"
+
+msgid "CPU Performance"
+msgstr "Rendimiento de CPU"
+
+msgid "CPU performance management."
+msgstr "Gestión del rendimiento de CPU."
+
+msgid "CPU performance scaling is not available..."
+msgstr "El escalado de rendimiento de CPU no está disponible..."
+
+msgid "Command failed"
+msgstr "Comando fallido"
+
+msgid "Conservative governor"
+msgstr "Regulador conservador"
+
+msgid "Current frequency"
+msgstr "Frecuencia actual"
+
+msgid "Current values"
+msgstr "Valores actuales"
+
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+msgid "Enable"
+msgstr "Habilitar"
+
+msgid "Enabled"
+msgstr "Habilitado"
+
+msgid "Enable/disable Energy Aware Scheduling (EAS)."
+msgstr "Habilitar/deshabilitar la planificación consciente de energía (EAS)."
+
+msgid "Failed to get %s init status: %s"
+msgstr "Fallo al obtener el estado de inicialización %s: %s"
+
+msgid "Frequency decrease deferral factor."
+msgstr "Factor de aplazamiento de disminución de frecuencia."
+
+msgid "Frequency step in percent of the maximum frequency the governor is allowed to set."
+msgstr "Paso de frecuencia en porcentaje de la frecuencia máxima que el regulador tiene permitido establecer."
+
+msgid "Frequency value must not be"
+msgstr "El valor de frecuencia no debe ser"
+
+msgid "GHz"
+msgstr "GHz"
+
+msgid "If checked, it will cause the CPU load estimation code to treat the CPU time spent on executing tasks with \"nice\" levels greater than 0 as CPU idle time."
+msgstr "Si está marcado, hará que el código de estimación de carga de CPU trate el tiempo de CPU empleado en tareas con niveles \"nice\" mayores a 0 como tiempo de inactividad de CPU."
+
+msgid "If the estimated CPU load is above this value (in percent), the governor will set the frequency to the maximum value."
+msgstr "Si la carga estimada de CPU supera este valor (en porcentaje), el regulador configurará la frecuencia al valor máximo."
+
+msgid "KHz"
+msgstr "KHz"
+
+msgid "MHz"
+msgstr "MHz"
+
+msgid "Maximum frequency"
+msgstr "Frecuencia máxima"
+
+msgid "Maximum frequency the CPU is allowed to be running."
+msgstr "Frecuencia máxima permitida para el CPU."
+
+msgid "Maximum scaling frequency"
+msgstr "Frecuencia máxima de escalado"
+
+msgid "Minimum frequency"
+msgstr "Frecuencia mínima"
+
+msgid "Minimum frequency the CPU is allowed to be running."
+msgstr "Frecuencia mínima permitida para el CPU."
+
+msgid "Minimum scaling frequency"
+msgstr "Frecuencia mínima de escalado"
+
+msgid "No CPU frequency data available..."
+msgstr "No hay datos de frecuencia de CPU disponibles..."
+
+msgid "No performance data..."
+msgstr "No hay datos de rendimiento..."
+
+msgid "Ondemand governor"
+msgstr "Regulador ondemand"
+
+msgid "Performance managment"
+msgstr "Gestión del rendimiento"
+
+msgid "Performance scaling is not available for this policy..."
+msgstr "El escalado de rendimiento no está disponible para esta política..."
+
+msgid "Policy"
+msgstr "Política"
+
+msgid "Reduction factor to apply to the original frequency target of the governor."
+msgstr "Factor de reducción aplicado al objetivo de frecuencia original del regulador."
+
+msgid "Run at startup"
+msgstr "Ejecutar al inicio"
+
+msgid "Scaling governor"
+msgstr "Regulador de escalado"
+
+msgid "Scaling governors implement algorithms to estimate the required CPU capacity."
+msgstr "Los reguladores de escalado implementan algoritmos para estimar la capacidad de CPU requerida."
+
+msgid "Service action failed \"%s %s\": %s"
+msgstr "La acción del servicio falló \"%s %s\": %s"
+
+msgid "Threshold value (in percent) used to determine the frequency change direction."
+msgstr "Valor umbral (en porcentaje) utilizado para determinar la dirección del cambio de frecuencia."
+
+msgid "default value:"
+msgstr "valor predeterminado:"
+
+msgid "higher"
+msgstr "mayor"
+
+msgid "lower"
+msgstr "menor"
+
+msgid "than the"
+msgstr "que el"
