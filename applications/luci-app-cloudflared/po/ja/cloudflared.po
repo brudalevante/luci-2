@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2025-11-08 14:48+0000\n"
-"Last-Translator: Monarch "
-"<monarch.scrap-0p@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-12-07 21:54+0000\n"
+"Last-Translator: Monarch <monarch.scrap-0p@users.noreply.hosted.weblate.org>"
+"\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationscloudflared/ja/>\n"
 "Language: ja\n"
@@ -19,7 +19,7 @@ msgstr "すべて"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/config.js:77
 msgid "Certificate of Origin"
-msgstr ""
+msgstr "オリジン証明書"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/config.js:40
 msgid ""
@@ -30,19 +30,19 @@ msgstr ""
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/config.js:39
 #: applications/luci-app-cloudflared/root/usr/share/luci/menu.d/luci-app-cloudflared.json:3
 msgid "Cloudflare Zero Trust Tunnel"
-msgstr ""
+msgstr "Cloudflare Zero Trust Tunnel"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/config.js:69
 msgid "Config file path"
-msgstr ""
+msgstr "構成ファイルのパス"
 
 #: applications/luci-app-cloudflared/root/usr/share/luci/menu.d/luci-app-cloudflared.json:14
 msgid "Configuration"
-msgstr ""
+msgstr "設定"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/tunnels.js:76
 msgid "Connection ID"
-msgstr ""
+msgstr "接続 ID"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/tunnels.js:54
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/tunnels.js:90
@@ -69,11 +69,11 @@ msgstr "デバッグ"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/log.js:96
 msgid "Down"
-msgstr ""
+msgstr "停止中"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/log.js:104
 msgid "Download Log"
-msgstr ""
+msgstr "ログをダウンロード"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/config.js:59
 msgid "Enable"
@@ -116,7 +116,7 @@ msgstr ""
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/config.js:92
 msgid "Logging level"
-msgstr ""
+msgstr "ログ レベル"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/tunnels.js:51
 msgid "Name"
@@ -124,7 +124,7 @@ msgstr "名前"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/tunnels.js:85
 msgid "No connections"
-msgstr ""
+msgstr "接続がありません"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/config.js:55
 msgid "Not Running"
@@ -140,11 +140,11 @@ msgstr ""
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/tunnels.js:77
 msgid "Origin IP"
-msgstr ""
+msgstr "オリジン IP"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/config.js:86
 msgid "Region"
-msgstr ""
+msgstr "地域"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/config.js:54
 msgid "Running"
@@ -180,23 +180,23 @@ msgstr "トークン"
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/tunnels.js:96
 #: applications/luci-app-cloudflared/root/usr/share/luci/menu.d/luci-app-cloudflared.json:22
 msgid "Tunnels"
-msgstr ""
+msgstr "トンネル"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/tunnels.js:48
 msgid "Tunnels Information"
-msgstr ""
+msgstr "トンネル情報"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/log.js:33
 msgid "Unable to read the interface info from /var/log/cloudflared.log."
-msgstr ""
+msgstr "/var/log/cloudflared.log からインターフェース情報を読み込めません。"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/config.js:89
 msgid "United States"
-msgstr ""
+msgstr "アメリカ合衆国"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/log.js:97
 msgid "Up"
-msgstr ""
+msgstr "起動中"
 
 #: applications/luci-app-cloudflared/htdocs/luci-static/resources/view/cloudflared/log.js:91
 msgid "Warn"

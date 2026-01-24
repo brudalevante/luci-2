@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-11-08 14:47+0000\n"
-"Last-Translator: Monarch "
-"<monarch.scrap-0p@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-11-08 23:11+0000\n"
+"Last-Translator: Monarch <monarch.scrap-0p@users.noreply.hosted.weblate.org>"
+"\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsclamav/ja/>\n"
 "Language: ja\n"
@@ -80,6 +80,10 @@ msgstr "暗号化されたアーカイブのブロック"
 msgid "ClamAV"
 msgstr "ClamAV"
 
+#: applications/luci-app-clamav/htdocs/luci-static/resources/view/clamav/clamav-log.js:4
+msgid "ClamAV Log"
+msgstr "ClamAV ログ"
+
 #: applications/luci-app-clamav/htdocs/luci-static/resources/view/clamav/clamav-milter.js:15
 #: applications/luci-app-clamav/root/usr/share/luci/menu.d/luci-app-clamav.json:24
 msgid "ClamAV Milter"
@@ -97,7 +101,7 @@ msgstr ""
 #: applications/luci-app-clamav/htdocs/luci-static/resources/view/clamav/clamav.js:16
 #: applications/luci-app-clamav/htdocs/luci-static/resources/view/clamav/freshclam.js:15
 msgid "Configuration"
-msgstr ""
+msgstr "設定"
 
 #: applications/luci-app-clamav/htdocs/luci-static/resources/view/clamav/freshclam.js:160
 msgid "Connect timeout"

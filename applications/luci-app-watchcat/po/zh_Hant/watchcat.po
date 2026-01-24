@@ -82,8 +82,8 @@ msgstr ""
 "b>按鈕來設定一個以上的操作。"
 
 #: applications/luci-app-watchcat/htdocs/luci-static/resources/view/watchcat.js:52
-msgid "Host To Check"
-msgstr "要檢查的主機"
+msgid "Hosts To Check"
+msgstr ""
 
 #: applications/luci-app-watchcat/htdocs/luci-static/resources/view/watchcat.js:71
 msgid ""
@@ -104,8 +104,8 @@ msgid "Huge: 1492 bytes"
 msgstr "巨大：1492 位元組"
 
 #: applications/luci-app-watchcat/htdocs/luci-static/resources/view/watchcat.js:52
-msgid "IP address or hostname to ping."
-msgstr "要 ping 的 IP 位址或主機名稱。"
+msgid "IP addresses or hostnames to ping."
+msgstr ""
 
 #: applications/luci-app-watchcat/htdocs/luci-static/resources/view/watchcat.js:118
 msgid ""
@@ -229,3 +229,9 @@ msgstr "Watchcat"
 #: applications/luci-app-watchcat/htdocs/luci-static/resources/view/watchcat.js:82
 msgid "Windows: 32 bytes"
 msgstr "Windows：32 位元組"
+
+#~ msgid "Host To Check"
+#~ msgstr "要檢查的主機"
+
+#~ msgid "IP address or hostname to ping."
+#~ msgstr "要 ping 的 IP 位址或主機名稱。"

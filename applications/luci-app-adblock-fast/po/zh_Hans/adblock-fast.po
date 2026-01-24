@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2025-09-08 07:50+0000\n"
+"PO-Revision-Date: 2025-12-25 20:01+0000\n"
 "Last-Translator: 大王叫我来巡山 "
 "<hamburger2048@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/adblock-fast/status.js:99
 msgid "%s is currently disabled"
@@ -781,3 +781,46 @@ msgstr "smartdns nft 集"
 #: applications/luci-app-adblock-fast/htdocs/luci-static/resources/view/adblock-fast/overview.js:155
 msgid "unbound adblock list"
 msgstr "unbound 广告拦截列表"
+
+#~ msgid "Error"
+#~ msgstr "错误"
+
+#~ msgid "Fail"
+#~ msgstr "失败"
+
+#~ msgid "Warning"
+#~ msgstr "警告"
+
+#~ msgid "AdBlock on all instances"
+#~ msgstr "在所有实例上实施广告拦截"
+
+#~ msgid "AdBlock on select instances"
+#~ msgstr "选定实例上的 AdBlock"
+
+#~ msgid "No AdBlock on SmartDNS"
+#~ msgstr "SmartDNS 上没有 Adblock"
+
+#~ msgid "No AdBlock on dnsmasq"
+#~ msgstr "dnsmasq 上无 AdBlock"
+
+#~ msgid "Pick the SmartDNS instance(s) for AdBlocking"
+#~ msgstr "选择广告拦截的 SmartDNS 实例"
+
+#~ msgid "Pick the dnsmasq instance(s) for AdBlocking"
+#~ msgstr "选择广告拦截的 dnsmasq 实例"
+
+#~ msgid "Use AdBlocking on the SmartDNS instance(s)"
+#~ msgstr "在 SmartDNS 实例上使用广告拦截"
+
+#~ msgid "Use AdBlocking on the dnsmasq instance(s)"
+#~ msgstr "在 dnsmasq 实例上使用广告拦截"
+
+#~ msgid ""
+#~ "You can limit the AdBlocking to the specific SmartDNS instance(s) (%smore "
+#~ "information%s)."
+#~ msgstr "你可以只在特定 SmartDNS 实例上进行广告拦截（%更多信息%s）。"
+
+#~ msgid ""
+#~ "You can limit the AdBlocking to the specific dnsmasq instance(s) (%smore "
+#~ "information%s)."
+#~ msgstr "你可以只在特定 dnsmasq 实例上进行广告拦截（%更多信息%s）。"

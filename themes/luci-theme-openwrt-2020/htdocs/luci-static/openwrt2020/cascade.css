@@ -277,6 +277,7 @@ body.modal-overlay-active #modal_overlay {
 .modal .button-row {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .modal .button-row > :not(:last-child) {
@@ -304,10 +305,7 @@ tr.cbi-section-table-titles[data-title]::before {
 }
 
 tr[data-title]::before {
-	content: attr(data-title);
-	display: table-cell;
-	border-top: 1px solid var(--main-dark-color);
-	padding: .5em;
+	content: none;
 }
 
 th {
@@ -551,7 +549,9 @@ tr.placeholder > td {
 	vertical-align: middle !important;
 }
 
-.nowrap {
+.nowrap:not(span) {
+/*	Sometimes you need to wrap: badges on narrow screens look weird 
+	and nowrap defeats other width constraints, so exclude span */
 	white-space: nowrap !important;
 }
 
@@ -699,6 +699,11 @@ p > a {
 	text-align: center;
 	padding: .3em .25em .25em .25em;
 	white-space: nowrap;
+}
+
+#cbi-network-interface .ifacebox img {
+	width: 24px;
+	height: 24px;
 }
 
 .ifacebadge {
@@ -1115,6 +1120,7 @@ textarea {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 0 1em 0;
+	align-items: baseline;
 }
 
 .cbi-value > label:first-child {
@@ -1128,6 +1134,10 @@ textarea {
 
 .cbi-value > .cbi-section {
 	flex: 1 1 100%;
+}
+
+.cbi-value-first-field {
+	font-weight: bold;	
 }
 
 .cbi-map-descr,
@@ -1631,6 +1641,12 @@ button.spinning::before, .btn.spinning::before {
 	background: var(--success-color);
 }
 
+.label.notice {
+	background:var(--secondary-bright-color);
+	color:var(--main-bright-color);
+	border: 1px solid var(--main-bright-color);
+}
+
 ul.deps {
 	margin: 0;
 	padding: 0;
@@ -1779,20 +1795,7 @@ ul.errors {
 	}
 
 	td[data-title]::before {
-		content: attr(data-title) ": ";
-		white-space: nowrap;
-		font-weight: bold;
-		width: 40%;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		position: absolute;
-		left: 0;
-		top: 0;
-		bottom: 0;
-		padding: .2em 0;
-		text-align: left;
-		display: inline-flex;
-		align-items: center;
+		content: none;
 	}
 
 	td[data-title]::after {

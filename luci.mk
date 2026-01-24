@@ -54,6 +54,7 @@ LUCI_LANG.sv=Svenska (Swedish)
 LUCI_LANG.ta=Tamil (Tamil)
 LUCI_LANG.tr=Türkçe (Turkish)
 LUCI_LANG.uk=Українська (Ukrainian)
+LUCI_LANG.ur=اردو (Urdu)
 LUCI_LANG.vi=Tiếng Việt (Vietnamese)
 LUCI_LANG.yua=Yucateco (Yucatec Maya)
 LUCI_LANG.zh_Hans=简体中文 (Simplified Chinese)
@@ -233,7 +234,7 @@ define Package/$(PKG_NAME)/postinst
 [ -n "$${IPKG_INSTROOT}" ] || { \
 	rm -f /tmp/luci-indexcache.*
 	rm -rf /tmp/luci-modulecache/
-	killall -HUP rpcd 2>/dev/null
+	/etc/init.d/rpcd reload 2>/dev/null
 	exit 0
 }
 endef

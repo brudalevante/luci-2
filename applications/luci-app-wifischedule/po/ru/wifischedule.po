@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: LuCI: wifischedule\n"
 "POT-Creation-Date: 2017-11-30 15:30+0300\n"
 "PO-Revision-Date: 2025-08-03 11:02+0000\n"
-"Last-Translator: SnIPeRSnIPeR "
-"<snipersniper@users.noreply.hosted.weblate.org>\n"
+"Last-Translator: SnIPeRSnIPeR <snipersniper@users.noreply.hosted.weblate.org>"
+"\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationswifischedule/ru/>\n"
 "Language: ru\n"
@@ -133,10 +133,10 @@ msgstr "Выгружать модули (экспериментально; эк�
 msgid "Wednesday"
 msgstr "Среда"
 
+#: applications/luci-app-wifischedule/root/usr/share/luci/menu.d/luci-app-wifischedule.json:3
+msgid "WiFi Schedule"
+msgstr "Планировщик Wi-Fi"
+
 #: applications/luci-app-wifischedule/htdocs/luci-static/resources/view/wifischedule/wifischedule.js:51
 msgid "Wifi Schedule"
 msgstr "Планировщик Wi-Fi"
-
-#: applications/luci-app-wifischedule/root/usr/share/luci/menu.d/luci-app-wifischedule.json:3
-msgid "wifischedule"
-msgstr "wifischedule"

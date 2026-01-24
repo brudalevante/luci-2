@@ -61,7 +61,7 @@ function lxc_get_downloadable()
 		%{ url }, 'r')
 	local line
 	for line in f:lines() do
-		local dist, version, dist_target = line:match("^(%S+)%s+(%S+)%s+(%S+)%s+default%s+%S+$")
+		local dist, version, dist_target = line:match("^(%S+)%s+(%S+)%s+(%S+)%s+default%s+(%S+)%s*$")
 		if dist and version and dist_target and dist_target == target then
 			templates[#templates+1] = "%s:%s" %{ dist, version }
 		end
@@ -140,6 +140,7 @@ function lxc_configuration_set(lxc_name)
 	luci.http.prepare_content("text/plain")
 
 	local lxc_configuration = luci.http.formvalue("lxc_conf")
+	lxc_configuration = luci.http.urldecode(lxc_configuration, true)
 	if lxc_configuration == nil then
 		util.perror("lxc error: config formvalue is empty")
 		return

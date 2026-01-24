@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-06-18 15:02+0000\n"
-"Last-Translator: EESF-2 <eesf-2@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-01-18 06:16+0000\n"
+"Last-Translator: Anya Lin <hukk1996@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsattendedsysupgrade/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.1\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:290
 msgid ""
@@ -16,7 +16,7 @@ msgid ""
 "below."
 msgstr ""
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:50
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:42
 msgid "A new %s version of OpenWrt is available:"
 msgstr "OpenWrt有新版本%s可用："
 
@@ -34,7 +34,7 @@ msgstr "進階模式"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/configuration.js:11
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:725
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:54
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:46
 #: applications/luci-app-attendedsysupgrade/root/usr/share/luci/menu.d/luci-app-attendedsysupgrade.json:3
 msgid "Attended Sysupgrade"
 msgstr "值守式系統升級"
@@ -43,7 +43,7 @@ msgstr "值守式系統升級"
 msgid "Attendedsysupgrade Configuration."
 msgstr "值守式系統升級配置。"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:37
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:29
 msgid "Available"
 msgstr "可用"
 
@@ -68,7 +68,7 @@ msgstr "計算軟體包的雜湊"
 msgid "Cancel"
 msgstr "取消"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:53
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:45
 msgid "Check"
 msgstr "檢查"
 
@@ -100,7 +100,7 @@ msgstr ""
 msgid "Could not reach API at \"%s\". Please try again later."
 msgstr "無法存取位於 「%s」 的 API。請稍後再試。"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:36
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:28
 msgid "Current"
 msgstr "目前"
 
@@ -157,7 +157,7 @@ msgstr "檔案名稱"
 msgid "Filesystem"
 msgstr "檔案系統"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:20
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:18
 msgid "Firmware Version"
 msgstr ""
 
@@ -189,15 +189,15 @@ msgstr "正在安裝…"
 msgid "Keep settings and retain the current configuration"
 msgstr "保留目前設定"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:26
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:20
 msgid "Kernel Version"
 msgstr ""
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:180
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:186
 msgid "Look online for upgrades upon status page load"
 msgstr ""
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:49
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:41
 msgid "New Firmware Available"
 msgstr ""
 
@@ -268,7 +268,7 @@ msgstr "請求韌體映像檔"
 msgid "Request in build queue position %s"
 msgstr "建置佇列位置 %s 中的請求"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:23
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:19
 msgid "Revision"
 msgstr ""
 
@@ -326,7 +326,7 @@ msgstr "成功建立韌體映像檔"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:188
 msgid "Target"
-msgstr "目的"
+msgstr "目標"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:729
 msgid ""
@@ -380,14 +380,20 @@ msgstr "錯誤的校驗和"
 msgid "[installed] %s"
 msgstr "[已安裝]%s"
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:55
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:47
 msgid "and"
 msgstr ""
 
-#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:56
+#: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:48
 msgid "release notes"
 msgstr ""
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:19
 msgid "this forum thread"
 msgstr ""
+
+#~ msgid "Installing the sysupgrade. Do not unpower device!"
+#~ msgstr "正在進行系統升級。請勿關閉裝置電源！"
+
+#~ msgid "Please report the error message and request"
+#~ msgstr "請報告錯誤訊息和請求"

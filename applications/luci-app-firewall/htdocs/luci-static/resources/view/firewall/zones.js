@@ -130,7 +130,7 @@ return view.extend({
 		o.placeholder = _('Unnamed zone');
 		o.modalonly = true;
 		o.rmempty = false;
-		o.datatype = L.hasSystemFeature('firewall4') ? 'uciname' : 'and(uciname,maxlength(11))';
+		o.datatype = L.hasSystemFeature('firewall4') ? 'ucifw4zonename' : 'and(ucifw4zonename,maxlength(11))';
 		o.write = function(section_id, formvalue) {
 			var cfgvalue = this.cfgvalue(section_id);
 
@@ -164,7 +164,7 @@ return view.extend({
 		p[1].default = fwDefaults.getOutput();
 		p[2].default = fwDefaults.getForward();
 
-		o = s.taboption('general', form.Flag, 'masq', _('Masquerading'),
+		o = s.taboption('general', form.Flag, 'masq', _('IPv4 Masquerading'),
 			_('Enable network address and port translation IPv4 (NAT4 or NAPT4) for outbound traffic on this zone. This is typically enabled on the <em>wan</em> zone.'));
 		o.editable = true;
 		o.tooltip = function(section_id) {
@@ -293,11 +293,23 @@ return view.extend({
 		for (var i = 0; i < ctHelpers.length; i++)
 			o.value(ctHelpers[i].name, E('<span><span class="hide-close">%s (%s)</span><span class="hide-open">%s</span></span>'.format(ctHelpers[i].description, ctHelpers[i].name.toUpperCase(), ctHelpers[i].name.toUpperCase())));
 
-		o = s.taboption('advanced', form.Flag, 'log', _('Enable logging on this zone'));
+		o = s.taboption('advanced', form.MultiValue, 'log', _('Enable logging'), _('Log matched packets on the selected tables to syslog.'));
 		o.modalonly = true;
+		o.value('filter');
+		o.value('mangle');
+		o.placeholder = 'No table selected';
+		const TABLES = { filter: 1, mangle: 2 };
+		o.cfgvalue = function (section_id) {
+			let bitfield = this.super('load', [section_id]) || this.default;
+			return Object.keys(TABLES).filter(table => bitfield & TABLES[table]);
+		};
+		o.write = function (section_id, value) {
+			let bitfield = L.toArray(value).reduce((acc, table) => acc | (TABLES[table] || 0), 0);
+			return this.super('write', [section_id, bitfield]);
+		};
 
 		o = s.taboption('advanced', form.Value, 'log_limit', _('Limit log messages'));
-		o.depends('log', '1');
+		o.depends({log: [], "!reverse": true});
 		o.placeholder = '10/minute';
 		o.modalonly = true;
 

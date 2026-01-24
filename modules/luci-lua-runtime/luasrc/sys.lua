@@ -279,10 +279,14 @@ function net.host_hints(callback)
 end
 
 function net.conntrack(callback)
-	local ok, nfct = pcall(io.lines, "/proc/net/nf_conntrack")
-	if not ok or not nfct then
+	local ok, fd = pcall(io.open, "/tmp/nf_conntrack_link")
+	if not ok or not fd then
+		ok, fd = pcall(io.popen, "/usr/sbin/conntrack -L -o extended", "r")
+	end
+	if not ok or not fd then
 		return nil
 	end
+	nfct = fd:lines()
 
 	local line, connt = nil, (not callback) and { }
 	for line in nfct do
@@ -329,6 +333,7 @@ function net.conntrack(callback)
 				connt[#connt+1] = entry
 			end
 		end
+		if #connt >= 2048 then break end
 	end
 
 	return callback and true or connt

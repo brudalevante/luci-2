@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-19 19:36+0200\n"
-"PO-Revision-Date: 2025-11-08 14:47+0000\n"
-"Last-Translator: Monarch "
-"<monarch.scrap-0p@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-11-09 07:23+0000\n"
+"Last-Translator: Monarch <monarch.scrap-0p@users.noreply.hosted.weblate.org>"
+"\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsopenvpn/ja/>\n"
 "Language: ja\n"
@@ -197,7 +197,7 @@ msgstr ""
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:253
 msgid "Don't drop incoming tun packets with same destination as host"
-msgstr ""
+msgstr "ホストと同じ宛先を持つtunパケットをドロップしない"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:399
 msgid "Don't inherit global push options"
@@ -221,7 +221,7 @@ msgstr ""
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:229
 msgid "Don't warn on ifconfig inconsistencies"
-msgstr ""
+msgstr "ifconfig に不整合があっても警告しない"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:88
 msgid "Echo parameters to log"
@@ -578,8 +578,7 @@ msgstr ""
 msgid ""
 "Security recommendation: It is recommended to not enable compression and set "
 "this parameter to `no`"
-msgstr ""
-"セキュリティ上の注意: 圧縮は有効にせずにパラメーターを `no` にするべきです"
+msgstr "セキュリティ上の注意: 圧縮は有効にせずにパラメーターを `no` にするべきです"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:165
 msgid ""
@@ -760,8 +759,7 @@ msgstr "サポートされている最低の TLS バージョン"
 msgid ""
 "The size of the OVPN config file (%s) is too large for online editing in "
 "LuCI (&ge; 100 KB)."
-msgstr ""
-"この OVPN構成ファイル (%s) は LuCI で編集するには長すぎます (100KB 以内)。"
+msgstr "この OVPN構成ファイル (%s) は LuCI で編集するには長すぎます (100KB 以内)。"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:803
 msgid "This completely disables cipher negotiation"
