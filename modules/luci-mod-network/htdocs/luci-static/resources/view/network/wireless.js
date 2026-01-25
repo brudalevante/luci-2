@@ -1038,9 +1038,6 @@ return view.extend({
 					o = ss.taboption('advanced', form.Flag, 'ldpc', _('Tx LDPC'));
 					o.depends({'rxldpc': '1'});
 					o.default = '1';
-
-					o = ss.taboption('advanced', form.Flag, 'vendor_vht', _('256QAM'), _('Enable 256QAM modulation. May not supported by some hardware!'));
-					o.rmempty = true;
 				}
 
 

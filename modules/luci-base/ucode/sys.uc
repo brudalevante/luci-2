@@ -44,7 +44,7 @@ export function conntrack_list(callback) {
 		etcpr.close();
 	}
 
-	let nfct = open('/tmp/nf_conntrack_link', 'r');
+	let nfct = open('/proc/net/nf_conntrack', 'r');
 	if (! nfct) {
 		nfct = popen('/usr/sbin/conntrack -L -o extended', 'r');
 	}
@@ -107,9 +107,6 @@ export function conntrack_list(callback) {
 				callback(e);
 			else
 				push(connt ??= [], e);
-
-			if (length(connt) >= 2048)
-				break;
 		}
 
 		nfct.close();

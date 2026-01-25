@@ -279,7 +279,7 @@ function net.host_hints(callback)
 end
 
 function net.conntrack(callback)
-	local ok, fd = pcall(io.open, "/tmp/nf_conntrack_link")
+	local ok, fd = pcall(io.open, "/proc/net/nf_conntrack")
 	if not ok or not fd then
 		ok, fd = pcall(io.popen, "/usr/sbin/conntrack -L -o extended", "r")
 	end
@@ -333,7 +333,6 @@ function net.conntrack(callback)
 				connt[#connt+1] = entry
 			end
 		end
-		if #connt >= 2048 then break end
 	end
 
 	return callback and true or connt
